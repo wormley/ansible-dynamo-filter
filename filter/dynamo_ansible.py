@@ -27,7 +27,7 @@ class FilterModule(object):
         }
 
 
-    def dynamo_to_ansible(self,a)
+    def dynamo_to_ansible(self,a):
 
         deserializer = TypeDeserializer()
         out = {
