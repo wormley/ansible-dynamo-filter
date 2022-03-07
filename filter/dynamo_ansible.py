@@ -20,7 +20,6 @@ class FilterModule(object):
         }
 
     def ansible_to_dynamo(self,a):
-    ''' Convert the value to Dynamo Flavored JSON '''
         serializer = TypeSerializer()
         return ({
             k: serializer.serialize(v)
