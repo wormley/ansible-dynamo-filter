@@ -1,6 +1,6 @@
 # ansible-dynamo-filter
 
-Really simple Ansible filters to convert to and from the Dynamo Flavored data.
+Really simple Ansible filters to convert to and from DynamoDB Flavored data.
 
  dynamo_obj | dynamo_to_ansible
 
