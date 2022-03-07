@@ -32,7 +32,7 @@ class FilterModule(object):
         deserializer = TypeDeserializer()
         out = {
             k: deserializer.deserialize(v) 
-            for k, v in json.loads(a).items()
+            for k, v in a.items()
         }  
         return(out)
 
