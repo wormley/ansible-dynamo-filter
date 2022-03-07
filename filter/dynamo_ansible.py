@@ -34,5 +34,5 @@ class FilterModule(object):
             k: deserializer.deserialize(v) 
             for k, v in json.loads(a).items()
         }  
-        return(out, *args, **kw))
+        return(out)
 
