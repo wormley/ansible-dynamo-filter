@@ -21,11 +21,10 @@ class FilterModule(object):
 
     def ansible_to_dynamo(self,a):
         serializer = TypeSerializer()
-        return ({
+        return {
             k: serializer.serialize(v)
             for k, v in a.items()
-        },*args, **kw)
-
+        }
 
 
     def dynamo_to_ansible(self,a)
